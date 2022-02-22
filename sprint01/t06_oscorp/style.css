@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(144, 41, 36);
+}
+
+.logo {
+   color: #fff;
+}
+
+nav {
+    padding-left: 500px;
+}
+
+nav a {
+    margin-left: 200px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.header input {
+    appearance: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(214, 213, 201);
+    width: 180px;
+    margin-left: 200px;
+}
+
+
+.header input:focus {
+    color: #212529;
+    border-color: #bdbdbd;
+    outline: 0;
+
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.under_head {
+    background-color: rgb(214, 213, 201);
+    padding: 10px 20px;
+}
+
+.under_head a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.conteiner {
+    width: calc(100vw - 50px);
+    margin: 0 auto;
+}
+
+.catalog {
+    margin-top: 30px;
+}
+
+.cat_but {
+    margin-left: -30px;
+    margin-top: 30px;
+}
+
+.cat_but a{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+.grid-container {
+    width: 96%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 5px 10px 5px 5px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 40px;
+  }
+  
+  .grid-container {
+    grid-row-gap: 10px;
+  }
+  
+  .grid-item {
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .grid-item-chbx {
+    padding-left: 0px;
+    user-select: none;  
+  }
+  
+  .grid-item-center {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+
+  .grid-container {
+    width: 96%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 10px;
+    background-color: white;
+    padding: 10px;
+  }
+
+.grid-container {
+    grid-row-gap: 10px;
+}
+
+  .grid-item {
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+.grid-item-chbx {
+    padding-left: 20px;
+}
+
+.grid-item-center {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.grid-item-range {
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.grid-item-img1 {
+    display: flex;
+    background-image: url(assets/images/motorola.jpg);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 175px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+.grid-item-img2 {
+    display: flex;
+    background-image: url(assets/images/motorola.jpg);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 175px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+.grid-item-img3 {
+    display: flex;
+    background-image: url(assets/images/nokia.jpg);
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 175px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+.grid-item-img4 {
+    display: flex;
+    background-image: url(assets/images/nokia.jpg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 175px;
+    border-radius: 20px;
+    margin-left: 70px;
+    padding-left: 150px;
+}
+
+.grid-item {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: opx;
+}
+
+.grid-item p {
+    padding-top: 0px;
+    padding-bottom: opx;
+    text-align: left;
+    padding: 0px;
+    font-size: 14px;
+}
+
+.p1 {
+    text-transform: uppercase;
+}
+
+.p2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.p3 {
+    color: red;   
+}
+
+.grid-item button, .container-card button {
+    width:  100%;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+}
+
+.grid-item-chbx, .grid-item-img1, .grid-item, .grid-item-img2 {
+    border: 0px solid grey;
+}
+
+button:hover {
+    background-color: green;
+    transition: ease 1.5s;
+}
+
+h2 a {
+    text-align: left;
+    text-transform: none;
+    padding-left: 0px;
+    
+}
+
+h2 a {
+    text-align: left;
+    text-transform: none;
+    padding-left: 0px;
+    
+  }
+  
+  .nav {
+    background-color: rgb(218, 79, 79);
+    height: 2em;
+  }
+  
+  /* card css */
+  .container-card {   
+    display: flex;
+    width: 98%;
+    height: 80%;
+    justify-items: center;
+    justify-content: space-around;
+  }
+  
+  .card-left, .card-right {
+    width: 45%;
+    height: auto;
+    border: 0px solid red;
+    margin-top: 20px;
+  }
+  
+  .card {
+    display: flex;
+  }
+  
+  .cardImg {
+    border: 0px solid black;
+    border-radius: 10px;
+    width: 86%;
+    height: 86%;
+  }
+  
+  .footer {
+    border: 0px solid black;
+    display: flex;
+    background-color: #000000;
+    color: white;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+  }

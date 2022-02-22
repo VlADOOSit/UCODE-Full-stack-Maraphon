@@ -1,0 +1,27 @@
+.main_container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f6f8f6;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 4px 4px 4px 4px #c9c7c7;
+}
+
+.head {
+    text-align: center;
+    padding: 20px;
+    background-color: #0385d5;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px 20px 0 0;
+}
+
+.forecast_block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block {
+    text-align: center;
+}

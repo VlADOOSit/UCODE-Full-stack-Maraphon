@@ -1,0 +1,61 @@
+/* Собственно сам слайдер */
+.slider{
+    width: 400px;
+    
+    height: 300px;
+    
+    margin: 0 auto; 
+}
+
+.slider .item {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+    to {
+        opacity: 1
+    }
+}
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.prev, .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    height:250px;
+    top: 0;
+    top:10px;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    color: #ffffff;
+    background: rgba(222, 222, 222, 0.8);
+    font-weight: bold;
+    font-size: 18px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+.next {
+    margin-left: 450px;
+    border-radius: 0 10px 10px 0;
+}
+.prev {
+    border-radius: 10px 0 0 10px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(222, 222, 222,0.8);
+}
+  

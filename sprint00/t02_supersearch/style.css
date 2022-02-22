@@ -1,0 +1,23 @@
+#search {
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#input_search {
+    width: 100%;
+    color: green;
+    padding-left: 10px;
+}
+
+#button_search {
+    color: green;
+}
+
+#input_search:hover {
+    color: red;
+}
+
+#button_search:hover {
+    color: red;
+}

@@ -1,0 +1,15 @@
+.counter {
+    right: 1em;
+    padding: .5em;
+    position: fixed;
+    background: darkred;
+    border-radius: 0.27em;
+}
+
+.image {
+    display: block;
+    margin: 1em auto;
+}
+p {
+    margin: 0;
+}

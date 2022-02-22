@@ -1,0 +1,69 @@
+.conteiner {
+    font-family: Verdana, serif;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.card {
+    position: relative;
+    width: 270px;
+    height: 140px;
+
+
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}    
+
+span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+}
+
+#alias {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;  
+    text-align: right;
+    margin: 0;
+}
+
+img {
+    height: 182px;
+    position: absolute;
+}
+
+#cap {
+    margin-top: -32px;
+}
+
+#iron {
+    margin-top: -32px;
+}
+
+#widow {
+    margin-top: -32px;
+}
+#spider {
+    margin-top: -10px;
+}
+
+#card_cap {
+    background: linear-gradient(180deg, #4568DC, #B06AB3);
+}
+
+#card_iron {
+    background: linear-gradient(180deg, #e52d27, #b31217);
+}
+
+#card_widow {
+    background: linear-gradient(90deg, #000, #61045F);
+}
+
+#card_spider {
+    background: linear-gradient(180deg, #e52d27, #000);
+}
