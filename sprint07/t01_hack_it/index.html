@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password</title>
+    </head>
+    <body>
+        <h1>Password</h1>
+        
+        <div id="first" style="display:block">
+            <span id="hack"></span>
+            <form name="passForm" action="/">
+                <span>Password not saved at session</span><br>
+                
+                <span>Password for saving to session</span>
+                <input required type="text" name="pass" placeholder="Superhero real name" size="18" autofocus>
+                <br>
+                <span>Salt for saving to session</span>
+                <input required type="text" name="salt" placeholder="Superhero real name" size="18" autofocus><br>
+                <input id="submit" type="submit" value="Save">
+            </form>
+        </div>
+        <div id="second" style="display:none">
+            <form name="checkForm">
+                <span>Password saved at session</span><br>
+                
+                <span id="hash">Hash is</span>
+                <br>
+                <span>Try to guess</span>
+                <input type="text" name="newPass" placeholder="Superhero real name" size="18" autofocus>
+                <input id="check" type="submit" value="Check password"><br>
+                <input id="clear" type="submit" value="Clear">
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
