@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files</title>
+</head>
+<body>
+    <h1>File manager</h1>
+    <fieldset>
+        <h3>Create a file</h3>
+        
+        <label for="str">Filename:</label>
+        <input id="str" type="text" name="str" placeholder="input string"><br><br>
+
+        <span>Content</span>
+        <textarea name="content" id="content" cols="70" rows="5" maxlength="500"></textarea><br><br>
+
+        <input id="submit" type="submit" value="Create file">
+    </fieldset>
+
+    <fieldset>
+        <h3>Files:</h3>
+        <span id="list"></span>
+    </fieldset>
+
+    <fieldset id="file" style="display: none;">
+        <h3>Selected file:</h3>
+        <h3 id="filename">NAME</h3>
+        <p>Content:</p>
+        <p id="cont">...</p>
+        <input id="delete" type="submit" value="Delete file">
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+</html>

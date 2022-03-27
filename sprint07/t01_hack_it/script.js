@@ -1,6 +1,7 @@
 let subButton = document.getElementById('submit');
 let clearButton = document.getElementById('clear');
 let checkButton = document.getElementById('check');
+
 let first = document.getElementById('first');
 let second = document.getElementById('second');
 
@@ -15,7 +16,7 @@ subButton.addEventListener('click', function (evt) {
     let pass = passForm.elements['pass'].value;
     let salt = passForm.elements['salt'].value;
     if (pass != '' && salt != '') {
-        
+
         first.setAttribute('style', 'display:none');
         second.setAttribute('style', 'display:block');
 

@@ -1,0 +1,24 @@
+{
+  "name": "t00_session_for_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-session": "^1.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VlADOOSit/UCODE-Full-stack-Maraphon.git"
+  },
+  "author": "VLADOOSit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VlADOOSit/UCODE-Full-stack-Maraphon/issues"
+  },
+  "homepage": "https://github.com/VlADOOSit/UCODE-Full-stack-Maraphon#readme"
+}
