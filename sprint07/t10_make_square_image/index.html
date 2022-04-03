@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Make square image</h1>
+
+    <input id="url" type="text" name="url" placeholder="Image url..."><br><br>
+
+    <input type="submit" id="submit" value="GO"><br><br>
+
+    <script>
+        document.getElementById('submit').onclick = function() {
+        const src = document.getElementById('url').value;
+        const img = document.createElement('img');
+        const img2 = document.createElement('img');
+        const img3 = document.createElement('img');
+        const img4 = document.createElement('img');
+
+        img.style.width = "700px";
+        img.style.height = "700px";
+
+        img.src = src;
+
+        img2.style.width = "700px";
+        img2.style.height = "700px";
+
+        img2.src = src;
+
+        img3.style.width = "700px";
+        img3.style.height = "700px";
+
+        img3.src = src;
+
+        img4.style.width = "700px";
+        img4.style.height = "700px";
+
+        img4.src = src;
+        document.body.appendChild(img);
+        document.body.appendChild(img2);
+        document.body.appendChild(img3);
+        document.body.appendChild(img4);
+    }
+    </script>
+</body>
+</html>
