@@ -1,0 +1,10 @@
+USE ucode_web;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT(11) AUTO_INCREMENT,
+    login VARCHAR(31) NOT NULL UNIQUE,
+    pass VARCHAR(255) NOT NULL,
+    fullName VARCHAR(63) NOT NULL,
+    email VARCHAR(63) NOT NULL UNIQUE,
+    PRIMARY KEY (id)
+);
