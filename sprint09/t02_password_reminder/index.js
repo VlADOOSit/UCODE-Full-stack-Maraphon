@@ -23,7 +23,7 @@ app.post('/password', jsonParser, function(request, response) {
 });
 
 app.get('/password', function(request, response) {
-    response.sendFile(__dirname + '/public/password.html');
+    response.sendFile(__dirname + '/views/password.html');
 });
 
 

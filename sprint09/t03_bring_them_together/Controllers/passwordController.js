@@ -3,7 +3,7 @@ const path = require("path");
 
 let sen = path.resolve(__dirname, '../');
 const passwordGet = (request, response) => {
-    response.sendFile(sen + '/public/password.html');
+    response.sendFile(sen + '/views/password.html');
 }
 
 const passwordGetStyle = (request, response) => {

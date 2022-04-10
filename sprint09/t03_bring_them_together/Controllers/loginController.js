@@ -5,11 +5,11 @@ let sen = path.resolve(__dirname, '../');
 let ses;
 
 const mainGet = (request, response) => {
-    response.sendFile(sen + '/public/profile.html');
+    response.sendFile(sen + '/views/profile.html');
 }
 
 const loginGet = (request, response) => {
-    response.sendFile(sen + '/public/login.html');
+    response.sendFile(sen + '/views/login.html');
 }
 
 const loginGetStyle = (request, response) => {

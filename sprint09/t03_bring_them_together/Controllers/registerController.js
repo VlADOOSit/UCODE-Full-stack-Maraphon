@@ -4,7 +4,7 @@ const emailValidator = require("email-validator");
 
 let sen = path.resolve(__dirname, '../');
 const registrationGet = (request, response) => {
-    response.sendFile(sen + '/public/registration.html');
+    response.sendFile(sen + '/views/registration.html');
 }
 
 const registrationGetStyle = (request, response) => {
