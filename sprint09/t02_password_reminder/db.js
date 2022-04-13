@@ -43,7 +43,7 @@ function db(response, user) {
                 service: 'gmail',
                 auth: {
                     user: 'vlad.kharkovskiy22@gmail.com',
-                    pass: 'wsxqazwsxqaz',
+                    pass: '',
                 }
             })
         
