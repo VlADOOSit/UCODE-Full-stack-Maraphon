@@ -51,7 +51,6 @@ class Model {
             //console.log(rows);
             //console.log('asd' + rows.insertId);
             this.id = rows.insertId;
-            //console.log(this.id);
         });
     }
 
