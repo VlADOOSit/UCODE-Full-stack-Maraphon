@@ -28,7 +28,6 @@ class Note {
             console.log('An error has occurred ', error);
         }
     }
-
 }
 
 module.exports = Note;
