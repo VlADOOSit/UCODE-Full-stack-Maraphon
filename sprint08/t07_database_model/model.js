@@ -47,19 +47,14 @@ class Model {
                 console.log("Hero wasn't save");
                 throw err;
             }
-
-            //console.log(rows);
-            //console.log('asd' + rows.insertId);
             this.id = rows.insertId;
         });
     }
 
     delete(id) {
-        //console.log(this.id);
         let sql = 'DELETE FROM heroes WHERE id = ?';
 
         mysql.connect();
-        //console.log(this.id);
             
         mysql.query(sql, id, function (err, rows) {
             if (err) {
