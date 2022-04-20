@@ -67,7 +67,6 @@ class Model {
                 console.log("Hero wasn't delete");
                 throw err;
             }
-            //console.log(this.id);
         });
     }
 }
