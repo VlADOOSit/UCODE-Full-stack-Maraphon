@@ -38,7 +38,6 @@
 
         request.send();
 
-
         subButton.addEventListener('click', function (evt) {
     
             evt.preventDefault();
@@ -68,7 +67,6 @@
                 else {
                     document.getElementById('error').innerText = receivedUser.ans;
                 }
-
             });
                 
             request.send(user);
