@@ -1,4 +1,4 @@
-# UCODE-Web-Full-stack-Maraphon
+# UCODE-Web-Full-stack-Marathon
 
 Task using technologies HTML/CSS/JS Node.js
 
