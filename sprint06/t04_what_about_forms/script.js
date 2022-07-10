@@ -1,8 +1,8 @@
 let subButton = document.getElementById('submit');
 let textAns = document.getElementById('textAns');
 
-subButton.addEventListener('click', function (evt) {
-    
+subButton.addEventListener('click', async function (evt) {
+
     evt.preventDefault();
     
     let testForm = document.forms['checkForm'];
@@ -12,20 +12,15 @@ subButton.addEventListener('click', function (evt) {
         answer: answer
     });
 
-    let request = new XMLHttpRequest()
 
-    request.open('POST', '/', true);
-
-    request.setRequestHeader( 'Content-Type', 'application/json');
-
-    request.addEventListener('load', function () {
-
-        let receivedUser = JSON.parse(request.response);
-
-      //console.log(receivedUser.answer);
-        textAns.innerHTML = receivedUser.answer;
-
+    let response = await fetch('/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json;charset=utf-8'
+        },
+        body: user
     });
-
-    request.send(user);
+    let result = await response.json();
+    
+    textAns.innerHTML = result.answer;
 })
